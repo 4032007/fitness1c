@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+	<title>Перенос базы данных в программу 1С:Фитнес клуб</title> 
+	<meta name="description" content=""> 
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="image/png" href="favicon-32x32.png" rel="shortcut icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="template_styles.css?15887469987785895">
+	<script src="js/jquery.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.fancybox.rutube.js?55888"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js?25555758747585888885"></script>
+</head>
+<body>
+	<div class="main">
+    	<div class="rsp_n"></div>
+        
+        <div class="wr-header_n active_n">
+            <div class="header_n">
+                <div class="logo_n"><a href="/"><img src="images/logo_n.svg" alt="" /></a></div>
+                
+                <div class="menu-head_n">
+                    <ul>
+                        <li><a href="#"><i>Цена</i></a></li>
+                        <li class="sub_n"><span><i>Для кого</i></span>
+                        	<div class="wr-panel-menu">
+                                <div class="panel-menu_n">
+                                    <div class="in-panel-menu_n">
+                                        <div class="menu-for_n">
+                                            <div class="cols-menu-for">
+                                                <div class="col-menu-for">
+                                                    <p>Maлый бизнес</p>
+                                                    <ul>
+                                                        <li class="item1"><a href="#">Фитнес-студия</a></li>
+                                                        <li class="item2"><a href="#">Студия растяжки</a></li>
+                                                        <li class="item3"><a href="#">Студия йоги</a></li>
+                                                        <li class="item4"><a href="#">Школа танцев</a></li>
+                                                        <li class="item5"><a href="#">Школа единоборств</a></li>
+                                                        <li class="item6"><a href="#">Секции и кружки</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-menu-for">
+                                                    <p>Средний бизнес</p>
+                                                    <ul>
+                                                        <li class="item7"><a href="#">Фитнес-клуб</a></li>
+                                                        <li class="item8"><a href="#">Спорт-центр</a></li>
+                                                        <li class="item9"><a href="#">Бассейн</a></li>
+                                                        <li class="item10"><a href="#">Кроссфит-центр</a></li>
+                                                        <li class="item11"><a href="#">Теннисный клуб</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-menu-for">
+                                                    <p>Крупный бизнес</p>
+                                                    <ul>
+                                                        <li class="item12"><a href="#">Спорткомплекс</a></li>
+                                                        <li class="item13"><a href="#">Велнес-центр</a></li>
+                                                        <li class="item14"><a href="#">Горнолыжный курорт</a></li>
+                                                        <li class="item15"><a href="#">Стадион</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-menu-for">
+                                                    <p>Франшизы</p>
+                                                    <ul>
+                                                        <li class="item16"><a href="#">Франшизы и сети</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="callback-menu_n">
+                                            	<div class="in-callback-menu_n">
+                                                    <div class="soc-menu_n">
+                                                        <ul>
+                                                            <li class="item1"><a target="_blank" href="https://vk.com/1c_fitness_club"></a></li>
+                                                            <li class="item2"><a target="_blank" href="https://t.me/fitness_biz"></a></li>
+                                                            <li class="item4"><a target="_blank" href="https://www.youtube.com/channel/UClQY46yI7kUTHe-ooSKUV5Q"></a></li>
+                                                            <li class="item5"><a target="_blank" href="https://rutube.ru/channel/37323298/"></a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="main-menu_n"><a href="mailto:hello@1c.fitness">hello@1c.fitness</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="sub_n"><a href="https://www.fitness1c.ru/features"><i>Возможности</i></a>
+                        	<div class="wr-panel-menu">
+                                <div class="panel-menu_n">
+                                    <div class="in-panel-menu_n">
+                                    	<div class="menu-posible_top">
+                                        	<div class="left-menu-possible_top">
+                                            	<div class="in-menu-possible_top">
+                                                	<div class="col-menu-possible_top">
+                                                		<p>Возможности</p>
+                                                        <div class="body-possible_sub">
+                                                            <ul>
+                                                                <li class="item1"><a href="https://www.fitness1c.ru/schedule_record">Расписание и онлайн-запись</a></li>
+                                                                <li class="item2"><a href="https://www.fitness1c.ru/lk_page">Личный кабинет</a></li>
+                                                            </ul>
+                                                            <ul>
+                                                                <li class="item3"><a href="https://www.fitness1c.ru/crm-fitness-clubs">CRM-система</a></li>
+                                                                <li class="item4"><a href="https://www.fitness1c.ru/messengers">Мессенджеры</a></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="but-possible_top"><a href="https://www.fitness1c.ru/features">Смотреть все</a></div>
+                                                    </div>
+                                                    <div class="col-menu-possible_top">
+                                                        <p>Мобильное приложение</p>
+                                                        <div class="body-possible_sub">
+                                                            <ul>
+                                                                <li class="item5"><a href="https://www.fitness1c.ru/rukovoditel">Для руководителя</a></li>
+                                                                <li class="item6"><a href="https://www.fitness1c.ru/trainer">Для тренера</a></li>
+                                                                <li class="item7"><a href="https://www.fitness1c.ru/application">Для клиента</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="right-menu-possible_top">
+												<div class="soc-menu_n">
+                                                	<ul>
+                                                    	<li class="item1"><a target="_blank" href="https://vk.com/1c_fitness_club"></a></li>
+                                                        <li class="item2"><a target="_blank" href="https://t.me/fitness_biz"></a></li>
+                                                        <li class="item4"><a target="_blank" href="https://www.youtube.com/channel/UClQY46yI7kUTHe-ooSKUV5Q"></a></li>
+                                                        <li class="item5"><a target="_blank" href="https://rutube.ru/channel/37323298/"></a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="main-menu_n"><a href="mailto:hello@1c.fitness">hello@1c.fitness</a></div>
+                                            </div>
+                                        </div>
+                                	</div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#"><i>Интеграции</i></a></li>
+                        <li class="sub_n"><span><i>О компании</i></span>
+                        	<div class="wr-panel-menu">
+                                <div class="panel-menu_n">
+                                    <div class="in-panel-menu_n">
+                                    	<div class="menu-company_n">
+                                        	<div class="cols-menu-company">
+                                                <ul>
+                                                    <li class="item1">
+                                                        <a href="#">О нас</a>
+                                                        <p>История успеха<br> нашей компании</p>
+                                                    </li>
+                                                    <li class="item2">
+                                                        <a href="#">Вебинары</a>
+                                                        <p>Опыт экспертов<br> в сфере фитнеса</p>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li class="item3">
+                                                        <a href="#">Контакты</a>
+                                                        <p>Мы всегда<br> на связи</p>
+                                                    </li>
+                                                    <li class="item4">
+                                                        <a href="#">Партнеры</a>
+                                                        <p>Скидки и<br> предложения</p>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li class="item5">
+                                                        <a href="#">Отзывы</a>
+                                                        <p>Почему лидеры индустрии<br> выбирают нас</p>
+                                                    </li>
+                                                    <li class="item6">
+                                                        <a href="#">YouТube-канал</a>
+                                                        <p>Видео о возможностях<br> системы 1С:Фитнес клуб</p>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li class="item7">
+                                                        <a href="#">Кейсы</a>
+                                                        <p>Истории наших<br> клиентов</p>
+                                                    </li>
+                                                    <li class="item8">
+                                                        <a href="#">Теlegram-канал</a>
+                                                        <p>Идеи по управлению<br> и маркетингу</p>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li class="item9">
+                                                        <a href="#">Новости и обновления</a>
+                                                        <p>Будьте в курсе жизни<br> компании</p>
+                                                    </li>
+                                                    <li class="item10">
+                                                        <a href="#">Блог</a>
+                                                        <p>Советы для бизнеса<br> в сфере фитнеса</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="sub_n"><span><i>Техподдержка</i></span>
+                        	<div class="wr-panel-menu">
+                                <div class="panel-menu_n">
+                                    <div class="in-panel-menu_n">
+                                    	<div class="menu-support_n">
+                                        	<div class="cols-menu-company">
+                                                <ul>
+                                                    <li class="item1">
+                                                        <a href="#">Контакты</a>
+                                                        <p>Помощь в решении<br> технических проблем</p>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li class="item2">
+                                                        <a href="#">База знаний</a>
+                                                        <p>Обучающая информация от<br> разработчиков программы</p>
+                                                    </li>
+                                                </ul>
+                                                <ul>
+                                                    <li class="item3">
+                                                        <a href="#">Курс обучения</a>
+                                                        <p>Поэтапное видеоруководство<br> по настройке программы</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            
+                                            <div class="but-tg-menu"><a target="_blank" href="https://t.me/fitness1c_support_bot">Онлайн-чат техподдержки</a></div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="header-right_n">
+                    <div class="contacts-head_n">
+                    	<div class="in-contacts-top_mm">
+                        	<div class="phone-h_n"><a href="tel:+74956496783">+7 495 649 67 83</a></div>
+                            <div class="department-sale"><a target="_blank" href="https://api.whatsapp.com/send/?phone=79951545012&amp;text&amp;type=phone_number&amp;app_absent=0"><i>Отдел продаж</i></a></div>
+                        </div>
+                        <div class="but-demo_n"><a data-fancybox href="#demo_n">Оставить заявку</a></div>
+                    </div>
+                </div>
+                
+                <div class="buts-head-mob_n">
+                	<div class="phone-mob_n"><a href="tel:+74956496783"></a></div>
+                    <div class="but-menu-mob_n">
+                        <div class="menu-tt">
+                            <a class="menu-but" href="#"><span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel-menu-mob_n">
+            	<div class="in-panel-menu-mob">
+            		<div class="but-demo_n"><a data-fancybox href="#demo_n">Оставить заявку</a></div>
+                    
+                    <div class="panel-menu_mob">
+                    	<ul>
+                        	<li><a href="#">Цена</a></li>
+                            <li><i>Для кого</i>
+                            	<div class="panel-menu_mb">
+                                	<div class="in-panel-menu-mb">
+                                        <div class="bl-menu-mb">
+                                            <p>Maлый бизнес</p>
+                                            <ul>
+                                                <li><a href="#">Фитнес-студия</a></li>
+                                                <li><a href="#">Студия растяжки</a></li>
+                                                <li><a href="#">Студия йоги</a></li>
+                                                <li><a href="#">Школа танцев</a></li>
+                                                <li><a href="#">Школа единоборств</a></li>
+                                                <li><a href="#">Секции и кружки</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="bl-menu-mb">
+                                            <p>Средний бизнес</p>
+                                            <ul>
+                                                <li><a href="#">Фитнес-клуб</a></li>
+                                                <li><a href="#">Спорт-центр</a></li>
+                                                <li><a href="#">Бассейн</a></li>
+                                                <li><a href="#">Кроссфит-центр</a></li>
+                                                <li><a href="#">Теннисный клуб</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="bl-menu-mb">
+                                            <p>Крупный бизнес</p>
+                                            <ul>
+                                                <li><a href="#">Спорткомплекс</a></li>
+                                                <li><a href="#">Велнес-центр</a></li>
+                                                <li><a href="#">Горнолыжный курорт</a></li>
+                                                <li><a href="#">Стадион</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="bl-menu-mb">
+                                            <p>Франшизы</p>
+                                            <ul>
+                                                <li><a href="#">Франшизы и сети</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><i>Возможности</i>
+                            	<div class="panel-menu_mb">
+                                	<div class="menu-possible_mob">
+                                    	<div class="bl-menu-possible_mob">
+                                        	<p>Возможности</p>
+                                            <ul>
+                                                <li><a href="https://www.fitness1c.ru/schedule_record">Расписание и онлайн-запись</a></li>
+                                                <li><a href="https://www.fitness1c.ru/lk_page">Личный кабинет</a></li>
+                                                <li><a href="https://www.fitness1c.ru/crm-fitness-clubs">CRM-система</a></li>
+                                                <li><a href="https://www.fitness1c.ru/messengers">Мессенджеры</a></li>
+                                                <li><a href="https://www.fitness1c.ru/features">Смотреть все</a></li>
+                                            </ul>
+                                        </div>
+                                    	<div class="bl-menu-possible_mob">
+                                        	<p>Возможности</p>
+                                            <ul>
+                                                <li><a href="https://www.fitness1c.ru/rukovoditel">Расписание и онлайн-запись</a></li>
+                                                <li><a href="https://www.fitness1c.ru/trainer">Личный кабинет</a></li>
+                                                <li><a href="https://www.fitness1c.ru/application">CRM-система</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#">Интеграция</a></li>
+                            <li><i>О компании</i>
+                            	<div class="panel-menu_mb">
+                                	<div class="in-panel-menu-mb">
+                                        <div class="bl-menu-mb">
+                                            <ul>
+                                                <li><a href="#">О нас</a></li>
+                                                <li><a href="#">Контакты</a></li>
+                                                <li><a href="#">Отзывы</a></li>
+                                                <li><a href="#">Кейсы</a></li>
+                                                <li><a href="#">Блог</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="bl-menu-mb">
+                                            <ul>
+                                                <li><a href="#">Новости и обновления</a></li>
+                                                <li><a href="#">Теlegram-канал</a></li>
+                                                <li><a href="#">YouТube-канал</a></li>
+                                                <li><a href="#">Вебинары</a></li>
+                                                <li><a href="#">Партнеры</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><i>Техподдержка</i>
+                            	<div class="panel-menu_mb">
+                                	<div class="in-panel-menu-mb">
+                                        <div class="bl-menu-mb">
+                                            <ul>
+                                                <li><a href="#">Контакты</a></li>
+                                                <li><a href="#">База знаний</a></li>
+                                                <li><a href="#">Курс обучения</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="but-tg-menu"><a target="_blank" href="https://t.me/fitness1c_support_bot">Онлайн-чат техподдержки</a></div>
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="department-sale_mob"><a target="_blank" href="https://api.whatsapp.com/send/?phone=79951545012&amp;text&amp;type=phone_number&amp;app_absent=0"><i>Отдел продаж</i></a></div>
+                    
+                    <div class="bot-panel-menu-mob">
+                    	<div class="top-p-n">
+                        	<div class="soc-mob-panel">
+                            	<ul>
+                                    <li class="item1"><a target="_blank" href="https://vk.com/1c_fitness_club"></a></li>
+                                    <li class="item2"><a target="_blank" href="https://t.me/fitness_biz"></a></li>
+                                    <li class="item3"><a target="_blank" href="https://www.youtube.com/channel/UClQY46yI7kUTHe-ooSKUV5Q"></a></li>
+                                    <li class="item4"><a target="_blank" href="https://rutube.ru/channel/37323298/"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mail-panel-mob"><a href="mailto:hello@1c.fitness">hello@1c.fitness</a></div>
+                    </div>
+            	</div>
+            </div>
+        </div>
+        
+        <div class="wr-ban-inner-n">
+            <div class="top-crm-data">
+            	<div class="left-top-crm-data">
+                    <div class="breadcreams_n">
+                        <ul>
+                            <li><a href="/">Главная</a></li>
+                            <li>Перенос базы данных в программу 1С:Фитнес клуб</li>
+                        </ul>
+                    </div>
+                	<h1>Как перенести базу данных в программу 1С:Фитнес клуб?</h1>
+                    <p>Без потерь и неприятных сюрпризов</p>
+                    <div class="but-callback_n"><a data-fancybox="" href="#callback_n"><i>Получить консультацию</i></a></div>
+                </div>
+                
+                <div class="right-top-crm-data">
+                	<div class="img-top-crm-data"><img src="images_tmp/top-crm-data.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="wr-back-white">
+        	<div class="b-stage-data">
+            	<div class="title-blue_n">Этапы <b>переноса данных</b></div>
+                <div class="text-stage-data">В зависимости от вашей программы мы выберем подходящий вариант</div>
+                <div class="body-stage-data">
+                	<div class="item-stage-data">
+                    	<div class="top-stage-data">
+                    		<div class="ico-stage-data"><img src="images/ico-stage-data1.svg" alt=""></div>
+                            <div class="tit-mob-stage-data for-mob_n2">Excel</div>
+                        </div>
+                        <div class="desc-stage-data">
+                        	<div class="tit-stage-data">Excel</div>
+                            <ul>
+                                <li>Заполнение базовых справочников в 1С:Фитнес клуб</li>
+                                <li>Подготовка шаблона (таблицу с данными) к переносу</li>
+                                <li>Быстрый перенос данных, но без истории</li>
+                            </ul>
+                        </div>	
+                    </div>
+                    
+                	<div class="item-stage-data">
+                    	<div class="top-stage-data">
+                    		<div class="ico-stage-data"><img src="images/ico-stage-data2.svg" alt=""></div>
+                            <div class="tit-mob-stage-data for-mob_n2">Парсер</div>
+                        </div>
+                        <div class="desc-stage-data">
+                        	<div class="tit-stage-data">Парсер</div>
+                            <ul>
+                                <li>Заполнение базовых справочников в 1С:Фитнес клуб</li>
+                                <li>Тестовый перенос</li>
+                                <li>Финальный полный перенос</li>
+                            </ul>
+                        </div>	
+                    </div>
+                </div>
+                
+                <div class="panel-stage-data">
+                	<div class="attent-stage-data">Все этапы Вы можете выполнить самостоятельно или с помощью нашего специалиста по внедрению</div>
+                    <div class="but-callback_n but-callback-orange_n"><a data-fancybox="" href="#callback_n"><i>Подробнее</i></a></div>
+                </div>
+                
+            </div>	
+        </div>
+        
+        <div class="block-crm-data">
+        	<div class="title-blue_n"><b>Новая CRM</b> без стресса!</div>
+            <div class="body-crm-data">
+            	<div class="left-crm-data">
+                	<div class="list-crm-data">
+                    	<div class="item-list-crm-data item1">
+                        	<div class="sm-tit-crm-data">Индивидуальный подход</div>
+                            <p>Изучим ваши бизнес-процессы, чтобы разработать персонализированный план внедрения, который учтёт все ваши потребности.</p>
+                        </div>
+                    	<div class="item-list-crm-data item2">
+                        	<div class="sm-tit-crm-data">Обучающие материалы</div>
+                            <p>Если вы предпочитаете самостоятельно справляться с переносом данных, у нас есть подробная видео-инструкция. Однако, если вы столкнётесь с трудностями, мы всегда рядом, чтобы помочь.</p>
+                        </div>
+                    	<div class="item-list-crm-data item3">
+                        	<div class="sm-tit-crm-data">Оперативная техподдержка</div>
+                            <p>Наши специалисты готовы ответить на любые ваши вопросы и помочь в решении проблем. Вы можете обратиться к нам по телефону или через телеграм.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="right-crm-data">
+                    <picture>
+                        <source srcset="images_tmp/crm-data2.jpg?58588556588888" media="(max-width: 767px)">
+                        <img src="images_tmp/crm-data.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+        
+        <div class="b-consult-crm-data">
+        	<div class="in-consult-crm-data">
+            	<div class="left-consult-crm-data">
+                	<div class="title-blue_n"><b>Давайте обсудим ваш</b> переход</div>
+                    <p>Мы поможем вам легко и быстро перенести данные в новую CRM</p>
+                    <div class="but-callback_n"><a data-fancybox="" href="#callback_n"><i>Оставить контакты</i></a></div>
+                </div>
+                
+                <div class="right-consult-crm-data">
+                	<div class="peop-crm-data">
+                    	<div class="die-peop-crm-data"><b>Михаил Рябов</b> Директор по продажам</div>
+                        <picture>
+                            <source srcset="images_tmp/peop-crm-data2.png?58588556588888" media="(max-width: 767px)">
+                            <img src="images_tmp/peop-crm-data.png?558888" alt="">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="wr-ask_n wr-ask-new_n wr-ask_support">
+            <div class="block-ask_n">
+                 <div class="title_n">Вопросы и ответы</div>
+                 
+                 <div class="list-ask_n">
+                    <div class="item-ask_n active">
+                        <div class="head-ask_n">Все&nbsp;ли данные возможно перенести из&nbsp;предыдущей программы в&nbsp;1С:Фитнес клуб?</div>
+                        <div class="content-ask_n">
+                            <p>Да, но&nbsp;это зависит от&nbsp;программы, из&nbsp;которой нужно перенести данные.</p>				
+                        </div>
+                    </div>
+                    <div class="item-ask_n">
+                        <div class="head-ask_n">Какая стоимость переноса данных?</div>
+                        <div class="content-ask_n">
+                            <p>Мы&nbsp;можем помочь осуществить перенос данных. Стоимость услуги уточняйте в&nbsp;<a target="_blank" href="https://t.me/fitness1c_op_bot">отделе продаж</a>, есть разные варианты.</p>	
+                        </div>
+                    </div>
+                    
+                    <div class="item-ask_n">
+                        <div class="head-ask_n">Можно&nbsp;ли осуществить миграцию данных своими силами?</div>
+                        <div class="content-ask_n">
+                            <p>Мы&nbsp;предоставляем клиентам подробную видео-инструкцию для самостоятельного переноса данных с&nbsp;помощью Excel.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item-ask_n">
+                        <div class="head-ask_n">Сколько времени потребуется на&nbsp;перенос данных?</div>
+                        <div class="content-ask_n">
+                            <p>Время переноса зависит от&nbsp;объема базы данных. Например, чем меньше клиентская база, тем быстрее будет осуществлен ее&nbsp;перенос.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item-ask_n">
+                        <div class="head-ask_n">Как будет организована поддержка пользователей после запуска новой CRM?</div>
+                        <div class="content-ask_n">
+                            <p>Сотрудники, которые работают в&nbsp;программе 1С:Фитнес клуб, могут обращаться за&nbsp;помощью в&nbsp;нашу <a target="_blank" href="https://t.me/fitness1c_support_bot">техническую поддержку</a> по&nbsp;рабочим дням с&nbsp;9.00 до&nbsp;19.00. Решение критических экстренных вопросов осуществляется группой дежурных сотрудников ежедневно с&nbsp;7:00 до&nbsp;22:00 по&nbsp;московскому времени.</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        
+	</div><!--main-->
+	
+<!--*******************footer************************-->
+	<div class="footer_n">
+		<div class="cont-f_n">
+        	<div class="body-foot-f">
+                <div class="left-footer_n">
+                	<div class="top-foot_n">
+                        <div class="logo-f_n"><a href="/"><img src="images/logo-f_n.svg" alt="" /></a></div>
+                        <div class="contacts-f_n">
+                            <div class="phone-f_n"><a href="tel:+74956496783">+7 (495) 649 67 83</a></div>
+                            <div class="main-f_n"><a href="mailto:hello@1c.fitness">hello@1c.fitness</a></div>
+                        </div>
+                    </div>
+                    <div class="soc-f_n for-desc_n">
+                        <ul>
+                            <li class="item1"><a target="_blank" href="https://vk.com/1c_fitness_club"></a></li>
+                            <li class="item2"><a target="_blank"  href="https://t.me/fitness_biz"></a></li>
+                            <li class="item3"><a target="_blank" href="https://zen.yandex.ru/id/6156bba2006caf4daa920dea"></a></li>
+                            <li class="item4"><a target="_blank" href="https://www.youtube.com/channel/UClQY46yI7kUTHe-ooSKUV5Q"></a></li>
+                        </ul>
+                    </div>
+                    <div class="bot-foot-mob_n">
+                        <div class="pay-f_n">
+                            <p>способы оплаты:</p>
+                            <ul>
+                                <li><img src="images_tmp/ico-pay_n1.svg" alt="" /></li>
+                                <li><img src="images_tmp/ico-pay_n2.svg" alt="" /></li>
+                                <li><img src="images_tmp/ico-pay_n3.svg" alt="" /></li>
+                            </ul>
+                        </div>
+                        <div class="b-gost_n">
+                            Программа 1С:Фитнес клуб внесена в реестр отечественного ПО, запись в реестре <a target="_blank" href="#">от<br> 29.04.2016 &#8470;&nbsp;677</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="menu-f_n">
+                    <div class="col-menu_n">
+                        <div class="bl-menu-f_n">
+                            <p>Продукт</p>
+                            <ul>
+                                <li><a href="#">Возможности</a></li>
+                                <li><a href="#">Интеграции</a></li>
+                            </ul>
+                        </div>
+                        <div class="bl-menu-f_n">
+                            <p>Техподдержка</p>
+                            <ul>
+                                <li><a href="#">Связаться</a></li>
+                                <li><a href="#">База знаний</a></li>
+                                <li><a href="#">Курс обучения</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-menu_n">
+                        <div class="bl-menu-f_n">
+                            <p>Компания</p>
+                            <ul>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Контакты  </a></li>
+                                <li><a href="#">Партнеры</a></li>
+                                <li><a href="#">СМИ о нас</a></li>
+                                <li><a href="#">Оплата</a></li>
+                                <li><a href="#">Документы</a></li>
+                                <li><a href="#">Блог</a></li>
+                                <li><a href="#">Аналитика<br> фитнес-индустрии</a></li>
+                            </ul>
+                        </div>
+                        <div class="soc-f_n for-mob_n">
+                            <ul>
+                                <li class="item1"><a target="_blank" href="https://vk.com/1c_fitness_club"></a></li>
+                                <li class="item2"><a target="_blank"  href="https://t.me/fitness_biz"></a></li>
+                                <li class="item3"><a target="_blank" href="https://zen.yandex.ru/id/6156bba2006caf4daa920dea"></a></li>
+                                <li class="item4"><a target="_blank" href="https://www.youtube.com/channel/UClQY46yI7kUTHe-ooSKUV5Q"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-menu_n">
+                        <div class="bl-menu-f_n">
+                            <p>Для любого бизнеса</p>
+                            <div class="body-ul_n">
+                                <ul>
+                                    <li><a href="#">Фитнес-студия</a></li>
+                                    <li><a href="#">Студия растяжки</a></li>
+                                    <li><a href="#">Студия йога</a></li>
+                                    <li><a href="#">Школа танцев</a></li>
+                                    <li><a href="#">Школа единоборств</a></li>
+                                    <li><a href="#">Секции и кружки</a></li>
+                                    <li><a href="#">Фитнес-клуб</a></li>
+                                    <li><a href="#">Спорт-центр</a></li>
+                                    <li><a href="#">Бассейн</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">Теннисный клуб</a></li>
+                                    <li><a href="#">Кроссфит-центр</a></li>
+                                    <li><a href="#">Спорткомплекс</a></li>
+                                    <li><a href="#">Стадион</a></li>
+                                    <li><a href="#">Горнолыжный курорт</a></li>
+                                    <li><a href="#">Велнес-центр</a></li>
+                                    <li><a href="#">Франшизы и сети</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copy-f_n">&copy;&nbsp;2004&ndash;2022&nbsp;ООО &laquo;Лаборатория программного обеспечения&raquo;. Все права защищены.</div>
+		</div>
+	</div>
+    
+    <div style="display:none" id="callback_n" class="callback_n">
+        <div class="pop-callback_n">
+            <div class="in-popup_n">
+                <div class="tit-callback_n">Получить консультацию</div>
+                <div class="in-form-pop_n">
+                    <form>
+                        <div class="field-pop_n"><input type="text" placeholder="Имя*" /></div>
+                        <div class="field-pop_n"><input type="text" class="phone_n" placeholder="+7 (___) ___-____" /></div>
+                        <div class="field-pop_n"><input type="text" placeholder="Е-mail" /></div>
+                        <div class="assets-pop_n">
+                            <input id="check-pop1" type="checkbox" />
+                            <label for="check-pop1">Я ознакомлен с <a target="_blank" href="#">политикой</a> и даю согласие на обработку <a target="_blank" href="#">персональных данных</a></label>
+                        </div>
+                        <div class="button-p_n"><button type="submit">Отправить</button></div>
+                    </form>
+                    <div class="text-error_n">*Поле обязательно для заполненеия</div>
+                </div>
+            </div>
+        </div>
+        
+    <br><br>
+       
+        <div class="pop-callback_n">
+            <div class="in-popup-thanks">
+                <div class="tit-thanks_n">Ваша заявка<br> успешно отправлена.</div>
+                <p>Наш сотрудник свяжется с&nbsp;вами в&nbsp;ближайшее время.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div style="display:none" id="demo_n" class="callback_n">
+        <div class="pop-callback_n">
+            <div class="in-popup_n">
+                <div class="tit-callback_n">Заказать демонстрацию</div>
+                <div class="in-form-pop_n">
+                    <form>
+                        <div class="field-pop_n"><input type="text" placeholder="Имя*" /></div>
+                        <div class="field-pop_n"><input type="text" class="phone_n" placeholder="+7 (___) ___-____" /></div>
+                        <div class="field-pop_n"><input type="text" placeholder="Е-mail" /></div>
+                        <div class="assets-pop_n">
+                            <input id="check-pop2" type="checkbox" />
+                            <label for="check-pop2">Я ознакомлен с <a target="_blank" href="#">политикой</a> и даю согласие на обработку <a target="_blank" href="#">персональных данных</a></label>
+                        </div>
+                        <div class="button-p_n"><button type="submit">Отправить</button></div>
+                    </form>
+                    <div class="text-error_n">*Поле обязательно для заполненеия</div>
+                </div>
+            </div>
+        </div>
+        
+    <br><br>
+       
+        <div class="pop-callback_n">
+            <div class="in-popup-thanks">
+                <div class="tit-thanks_n">Ваша заявка<br> успешно отправлена.</div>
+                <p>Наш сотрудник свяжется с&nbsp;вами в&nbsp;ближайшее время.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div style="display:none" id="review_n" class="callback_n">
+        <div class="pop-callback_n">
+            <div class="in-popup_n">
+                <div class="tit-callback_n">Ваш отзыв</div>
+                <div class="in-form-pop_n">
+                    <form>
+                        <div class="field-pop_n"><input type="text" placeholder="Имя*" /></div>
+                        <div class="field-pop_n"><input type="text" class="phone_n" placeholder="+7 (___) ___-____" /></div>
+                        <div class="field-pop_n"><input type="text" placeholder="Е-mail" /></div>
+                        <div class="textar-pop_n">
+                        	<textarea placeholder="Текст отзыва"></textarea>
+                        </div>
+                        <div class="assets-pop_n">
+                            <input id="check-pop3" type="checkbox" />
+                            <label for="check-pop3">Я ознакомлен с <a target="_blank" href="#">политикой</a> и даю согласие на обработку <a target="_blank" href="#">персональных данных</a></label>
+                        </div>
+                        <div class="button-p_n"><button type="submit">Отправить</button></div>
+                    </form>
+                    <div class="text-error_n">*Поле обязательно для заполненеия</div>
+                </div>
+            </div>
+        </div>
+        
+    <br><br>
+       
+        <div class="pop-callback_n">
+            <div class="in-popup-thanks">
+                <div class="tit-thanks_n">Спасибо за<br> обратную связь!</div>
+                <p>Ваш отзыв будет опубликован после модерации.</p>
+                <div class="decor-pop-thanks"><img src="images/decor-thanks.png?5588" alt="" /></div>
+            </div>
+        </div>
+    </div>
+    
+    <div style="display:none" id="pop-text-review-nn" class="popup-body-coms-nn">
+        <div class="body-review-new body-review-new2">
+            <div class="desc-item-review-new">
+                <div class="top-review-new">
+                    <div class="desc-top-review">
+                        <div class="name-review-new">Марк<br> Карелин</div>
+                        <div class="stat-review-new">Руководитель службы сервиса<br> фитнес-центра Любифитнес</div>
+                        <div class="rating-review-new">
+                            <ul>
+                                <li class="active"></li>
+                                <li class="active"></li>
+                                <li class="active"></li>
+                                <li class="active"></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="small-img-review-new"><img src="images_tmp/img-small-review.jpg" alt="" /></div>
+                </div>
+                <div class="text-review-new">Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности в значительной степени обуславливает создание модели развития.Значимость этих проблем настолько очевидна, что постоянный Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности в значительной степени обуславливает создание модели развития.Значимость этих проблем настолько очевидна, что постоянный </div>
+                <div class="date-review-new">30.09.2021</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
